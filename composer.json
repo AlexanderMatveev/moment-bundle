@@ -1,0 +1,28 @@
+{
+    "name":        "alexandermatveev/moment-bundle",
+    "type":        "symfony-bundle",
+    "description": "Moment.js Bundle for Symfony2",
+    "keywords":    ["moment", "javascript", "symfony"],
+    "homepage":    "https://github.com/AlexanderMatveev/moment-bundle",
+    "license":     ["MIT"],
+    "authors":     [
+        {
+            "name":     "Aleksandr Matveev",
+            "homepage": "https://github.com/AlexanderMatveev"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": "~2.1",
+        "symfony/console": "~2.1",
+        "symfony/yaml": "~2.1"
+    },
+    "autoload":    {
+        "psr-0": {
+            "AlexanderMatveev\\MomentBundle": ""
+        }
+    },
+    "target-dir":  "AlexanderMatveev/MomentBundle"
+}
